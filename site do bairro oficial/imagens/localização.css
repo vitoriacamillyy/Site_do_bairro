@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 100px;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around ;
+    padding: 10px;
+    position: fixed;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.308);
+    z-index: 40;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 20px;
+}
+
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bolder;
+}
+
+.menu li a{
+    font-size: 15px;
+    font-family: Inter;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+}
+
+.menu li a:hover {
+    background-color: whitesmoke;
+}
+
+img{
+    width: 150px;
+    height: 40px;
+}
+
+
+
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    color: #356823;
+    margin-top: 10px;   
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 450px;
+}
+
+button {
+    margin-top: 30px;
+    width: 190px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #2c571c;
+    border-color: #2c571c;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.textobotao {
+    font-family: 'Inter', sans-serif;
+}
+.complemento {
+    width: 900px;
+    height: 900px;
+    margin-top: 100px;
+    margin-left: -600px;
+}
+
+.mapa {
+    border-radius: 15px;
+    box-shadow: #a8a8a8 5px 5px 5px;
+    margin-top: 300px;
+    margin-left: -230px;
+    position: absolute;
+}
+
+.mapinha {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: -290px;
+    margin-left: -900px;
+    position: absolute;
+}
+
+.texto1 {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    margin-top: 100px;  
+    margin-left: -1500px;
+    text-align:right;
+    font-size: 17px; 
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+.nossomapa{
+    font-family: 'Inter', sans-serif;
+    color: #2c571c;
+    margin-top: -800px; 
+    margin-left: 470px;
+    text-align:right;
+    font-size: 25px; 
+    position: absolute;
+    font-weight: bolder;
+}
+
+.subtitulo {
+    font-family: 'Inter', sans-serif;
+    color: #356823;
+    margin-top: -760px;  
+    margin-left: 460px;
+    text-align: center;
+    font-size: 17px; 
+    position: absolute;
+    font-weight: bolder;
+}
+
+.titulocentro {
+    font-family: 'Inter', sans-serif;
+    color: #356823;
+    margin-top: 230px;  
+    margin-left: 890px; 
+    text-align: right;
+    font-size: 35px;
+    position: absolute;
+    font-weight: bolder;
+}
+
+.centro {
+    width: 700px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: -100px;
+    position: absolute;
+}
+
+.textocentro {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    margin-top: 300px;  
+    margin-left: 650px;
+    margin-right: 50px;
+    text-align:right;
+    font-size: 17px; 
+    position: absolute;
+}
+
+.tituloestacao {
+    font-weight: lighter;
+    text-align:justify;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: #356823;
+    margin-top: -210px;  
+    margin-right: 500px;
+    font-size: 35px; 
+    font-weight: bolder;
+}
+
+
+.estacao {
+    font-weight: lighter;
+    text-align:justify;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    margin-right: 500px;
+    font-size: 17px; 
+    font-weight: normal;
+}
+
+.metro {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    margin-top: -390px;  
+    margin-left: 550px;
+}
+
